@@ -3,9 +3,9 @@ using System;
 
 namespace SingleOrWhere
 {
-    class Program
+    internal class Program
     {
-        static void Main()
+        private static void Main()
         {
             Console.WriteLine("Benchmarking Enumerable...");
             BenchmarkRunner.Run<WhereEnumerable>();
